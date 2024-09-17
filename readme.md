@@ -15,6 +15,9 @@ in your vscode settings:
 
     // needed to change to custom style
     "window.titleBarStyle": "custom",
+
+    // important to disable native controls 
+    "window.experimentalControlOverlay": false
 }
 ```
 
