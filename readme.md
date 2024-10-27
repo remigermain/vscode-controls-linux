@@ -25,7 +25,7 @@ next restart your vscode in sudo mode or follow the [extentions](https://marketp
 
 ```sh
 # run vscode in sudo
-sudo chown -R $(whoami) "$(which codium &>/dev/null || which code)"
+sudo chown -R $(whoami) "$(which codium 2>/dev/null || which code)"
 sudo chown -R $(whoami) /usr/share/$(which codium &>/dev/null && echo "codium" || echo "code")
 
 # in vscode open command palette
