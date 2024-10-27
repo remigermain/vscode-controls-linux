@@ -11,7 +11,7 @@ in your vscode settings:
 {
     ...
     // change were this script is located
-    "vscode_custom_css.imports": ["file:/CHANGE_YOUR_PATH/.config/VSCodium/User/script.js"],
+    "vscode_custom_css.imports": ["https://github.com/remigermain/vscode-controls-linux/blob/main/script.js"],
 
     // needed to change to custom style
     "window.titleBarStyle": "custom",
@@ -25,7 +25,8 @@ next restart your vscode in sudo mode or follow the [extentions](https://marketp
 
 ```sh
 # run vscode in sudo
-sudo vscode --no-sandbox --user-data-dir ~/.config/VSCode
+sudo chown -R $(whoami) "$(which codium 2>/dev/null || which code)"
+sudo chown -R $(whoami) /usr/share/$(which codium &>/dev/null && echo "codium" || echo "code")
 
 # in vscode open command palette
 Reload custom CSS and JS
