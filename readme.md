@@ -11,7 +11,7 @@ in your vscode settings:
 {
     ...
     // change were this script is located
-    "vscode_custom_css.imports": ["https://github.com/remigermain/vscode-controls-linux/blob/main/script.js"],
+    "vscode_custom_css.imports": ["https://raw.githubusercontent.com/remigermain/vscode-controls-linux/refs/heads/main/script.js"],
 
     // needed to change to custom style
     "window.titleBarStyle": "custom",
