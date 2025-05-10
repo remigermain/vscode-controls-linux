@@ -3,7 +3,7 @@
 /!\ this script not working on vscode >= 1.98, see [issue1](https://github.com/remigermain/vscode-controls-linux/issues/1)
 
 ![preview](./preview.png)
-> this script move windows controls to left in linux with gnome style
+> this script move window controls to left in linux with gnome style
 
 #### Installation
 you need to install [vscode-custom-css](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
