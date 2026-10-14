@@ -1,4 +1,5 @@
-New Vscode >= 1.40 (updated Electron to 43 https://github.com/microsoft/vscode/pull/332935) this script is no longer needed
+## Script is no longer needed !! 
+> The wew Vscode >= 1.40 are updated Electron to v43 https://github.com/microsoft/vscode/pull/332935 linux controls is respected
 
 ### Vscode left gnome controls
 
